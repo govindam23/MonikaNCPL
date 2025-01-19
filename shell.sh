@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-source /home/azureuser/config.env
+source /home/mgovind23/config.env
 
 
 echo "Logging into Azure with created Service Principal" 
