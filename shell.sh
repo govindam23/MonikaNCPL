@@ -8,7 +8,7 @@ echo "Logging into Azure with created Service Principal"
 az login --service-principal -u $AZURE_APP_ID -P $AZURE_PASSWORD --tenant $AZURE_TENANT 
 
 
-if [ $? -ne 0 ]; then 
+if [$? -ne 0 ]; then 
    echo "Oops Azure login failed.." 
     exit 1 
 fi 
